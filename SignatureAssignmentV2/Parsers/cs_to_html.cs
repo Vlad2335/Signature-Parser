@@ -41,7 +41,7 @@ namespace SignatureAssignmentV2
 
 
                            companyAdres = signature?.Element("company_adres")?.Value,
-                           styleCompAdr = signature?.Element("company_adres")?.Attribute("styleCompAdr")?.Value, // Responsible for the style of job_title
+                           styleCompAdr = signature?.Element("company_adres")?.Attribute("styleCompAdr")?.Value, // Responsible for the style of company_adres
 
 
                            telNumber = signature?.Element("tel_nummer")?.Value,
