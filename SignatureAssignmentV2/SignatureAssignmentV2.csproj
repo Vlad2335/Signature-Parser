@@ -13,4 +13,8 @@
     <Compile Remove="Parsers\HtmlParser.cs" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Layouts\" />
+  </ItemGroup>
+
 </Project>
